@@ -71,6 +71,14 @@ main h1 {
 }
 main h2 {
     font-size: 1.7em;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.grid_system div[class^="col"] {
+    border: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
 
 /* Partners */
