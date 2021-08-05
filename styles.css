@@ -50,8 +50,12 @@ header {
     border: none;
 }
 .main-menu ul li.active a {
-    color: #fff;
+    color: white;
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+.navbar-toggler { border-color: grey; }
 
 /* Main */
 main {
@@ -63,6 +67,7 @@ main h1 {
     font-size: 2.5em;
     padding-bottom: 0.5em;
     color: #9ed034;
+    text-align: center;
 }
 main h2 {
     font-size: 1.7em;
@@ -150,7 +155,7 @@ footer #nondisclaimer .social .fa-instagram {
 /* ACTIVATE BELOW WHEN TESTING NAVIGATION AND OTHERS FOR RWD */
 
 /* Media Queries */
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     footer #nondisclaimer .copy {
         padding: 3.5em 0em 3.5em 0em;
         text-align: center;
@@ -176,16 +181,16 @@ footer #nondisclaimer .social .fa-instagram {
         position: absolute;
         right: 1.7em;
       }
-      .main-menu ul li {
-        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+    .main-menu ul li {
+      border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+    }
+    main {
+      padding: 3em 1em 3em 1em;
+      margin: 0;
+    }
+    #home .main-col-content {
+      padding: 25px;
+      min-height: 450px;
+      margin-top: 1em;
       }
-      main {
-        padding: 3em 1em 3em 1em;
-        margin: 0;
-      }
-      #home .main-col-content {
-        padding: 25px;
-        min-height: 450px;
-        margin-top: 1em;
-      }
-} */
+}
