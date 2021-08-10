@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <title>Great Cliffs of California</title>
 
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit = no">
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,44 +19,46 @@
     <link rel="stylesheet" href="styles.css" />
     
   </head>
+
   <body id="home">
     <div id="container">
     <header>
-      <nav class="main-header navbar navbar-expand-lg">
+      <div class="main-header">
         <div class="logo">
             <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
-        </div>
 
       <!-- Hamburger Menu -->
       <!-- Values for data-target and aria-controls must match id of div with the collapse class -->
-        <button class = "navbar-toggler nav-toggler-right"
+          <nav class="navbar navbar-expand-lg navbar-light pb-1 navbar-custom main-menu">
+            <a class="navbar-brand" href="#"></a>
+            <button class = "navbar-toggler"
                 type = "button" data-toggle = "collapse" 
                 data-target = "#navbarContent" 
                 aria-controls = "navbarContent"
                 aria-expanded = "false" 
                 aria-label = "Toggle navigation">
-          <span class = "navbar-toggler-icon">
-          </span>
-        </button>
+            <span class = "navbar-toggler-icon"></span>
+          </button>
 
-        <div class="main-menu collapse navbar-collapse" id = "navbarContent">
-            <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
-                <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+          <div class="main-menu collapse navbar-collapse" id = "navbarContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
+                  <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
         </div>
-    </nav>
+        </div>
     </header>
 
-    <main>
-      <div>
-        <h1>Introducing California's Greatest Cliffs</h1>
-          <div class="grid_system">
-            <div class="row">
-              <div class="col-md-5 mr-1">
-                  <h2>What is so unique about California cliffs?</h2>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+        <h1>Introducing California's Greatest Cliffs</h1></div>
+              <div class="col-md-6 border border-1">
+                  <h2 class="text-center">What is so unique about California cliffs?</h2>
                   <p>
                     California cliffs are one of a kind in the United States where
                     no cliffs are as manificent and beautiful as them. And
@@ -66,8 +70,8 @@
                     and overnight cabins.
                   </p>
               </div>
-              <div class="col-md-5 ml-1">
-                <h2>Where are these cliffs?</h2>
+              <div class="col-md-6 border border-1">
+                <h2 class="text-center">Where are these cliffs?</h2>
                 <p>
                   Located within a 100 mile radius from Irvine, California, they
                   can be reached by roads easily. The closest cliff to Irvine is
@@ -75,8 +79,6 @@
                 </p>
               </div>
             </div>
-          </div>
-      </div>
     </main>
     
     <section>
